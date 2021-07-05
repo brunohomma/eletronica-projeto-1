@@ -49,7 +49,7 @@ Vitor Laperriere de Faria []()
 <img src="./Images/circuito2.png">
 
 ## Link do circuito no Falstad:
-%md <a href="https://tinyurl.com/yfo9azrl" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
+<a href="https://tinyurl.com/yfo9azrl" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
 
 ## Imagem esquemático da PCB
 <!-- <img src="./Images/Esquemático.png"> -->
