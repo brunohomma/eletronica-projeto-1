@@ -9,8 +9,6 @@ Rodrigo Valim Maciel [github: (rodrigo-maciel-ifood)](https://github.com/rodrigo
 
 Vitor Laperriere de Faria []()
 
-## Projeto desenvolvido para a disciplina de Eletrônica.
-
 ## Instruções:
 
 ## Escolha dos componentes:
