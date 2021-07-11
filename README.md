@@ -12,20 +12,18 @@ Vitor Laperriere de Faria []()
 ## Instruções:
 
 ## Escolha dos componentes:
-| Quantidade | Componentes        | Valor R$ |
-|------------|--------------------|----------|
-| 5x         | Diodo 1N4001       | [R$ 0,15  x  5 = R$0,75](https://www.baudaeletronica.com.br/diodo-1n4001.html) |
-| 1          | Capacitor 560uF    | [R$ 1,35](https://produto.mercadolivre.com.br/MLB-1224395161-capacitor-560uf25v-samwha-105-8x20mm-560uf-25v-kit-c10-pc-_JM?matt_tool=79246729&matt_word&gclid=Cj0KCQjw6PD3BRDPARIsAN8pHuE09_vpTP-94KUv8B484TN9yoMPKdl6mD5vyV6dcl-4E9XVeMutZqQaAnpaEALw_wcB&quantity=1) |
-| 1          | Led Vermelho 5mm   | [R$ 0,25](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html) |
-| 2          | Resistor 1k ohm    | [R$ 0,08 x 2 = R$0,16](https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html) |
-| 1          | Resistor 120 ohm   | [R$ 0,08](https://www.baudaeletronica.com.br/resistor-120r-5-1-4w.html) |
-| 1          | Resistor 2.2k      | [R$ 0,10](https://daeletrica.com.br/resistor-2-2k-1-4w-x10-unidades.html) |
-| 1          | Potenciômetro  5k  | [R$ 1,15](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html) |
-| 1          | Diodo Zener (13v)  | [R$ 0,21](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html) |
-| 1          | Transistor NPN     | [R$ 0,18](https://www.baudaeletronica.com.br/transistor-npn-bc548.html) |
-| 1          | Transformador      | [R$ 22,99](https://produto.mercadolivre.com.br/MLB-989883391-transformador-trafo-1212v-200ma-bivolt-eletronica-eletrica-_JM?quantity=1#position=1&type=item&tracking_id=9abf8c61-6492-4e02-bb1d-d1a22f9b055d) |
-| 1          | Fusível            | [R$ 0,20](https://produto.mercadolivre.com.br/MLB-1215177820-100-pecas-fusivel-vidro-pequeno-5x20-100ma-promoco-_JM?matt_tool=82322591&matt_word&gclid=CjwKCAjw_-D3BRBIEiwAjVMy7KL-xfYxsBZ2ISQ6MRvXKc2D47XdN2jg_2NzGVHaAz0weXOF5UQ18RoCmSgQAvD_BwE&quantity=1) |
-| **Total**  |                    |  R$ 27,42 |
+| Quantidade | Componentes                 | Valor R$ |
+|------------|-----------------------------|----------|
+| 1          | Transformador 12v 250mA     | [R$21,99](https://tinyurl.com/a4674dyj) |
+| 5          | Diodo 1N4148                | [R$0,10 x 5 = R$0,50](https://tinyurl.com/vd29hv2v) |
+| 4          | Resistores (10k, 1k, 1k, 2k)| [R$0,14 x 4 = R$0,56](https://tinyurl.com/4wckxvxy) |
+| 1          | Capacitor Eletrolítico 470uF| [R$0,25](https://tinyurl.com/xkf6jmpc) |
+| 1          | Potenciômetro 5k            | [R$2,70](https://tinyurl.com/25ct25jr) |
+| 1          | Diodo Zenner                | [R$0,21](https://tinyurl.com/d9emevrh) |
+| 1          | LED                         | [R$0,24](https://tinyurl.com/yya8psu8) |
+| 1          | Transistor bc548            | [R$0,18](https://tinyurl.com/597hm6df) |
+| 1          | Fusível 0.2A                | [R$0,60](https://tinyurl.com/65jvr5db) |
+| **Total**  |                             |  R$27,23    |
 
 ## Os componentes
 
