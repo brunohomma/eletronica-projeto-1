@@ -31,19 +31,19 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
  
 * **Ponte de diodo**: Esse arranjo de diodos tem a funcionalidade de remover a parte negativa da senoide fornecida na entrada do circuito, assim o sentido da corrente fica apenas em uma direção.
 
-* **Resistores**: 
+* **Resistores**: Os resistores tem a função de limitar a corrente no circuito.
 
-* **Capacitor**: 
+* **Capacitor**: O capacitor tem a função de suprir a corrente no circuito quando a mesma estiver descendente. Assim a corrente fica mais contínua e estável.
 
-* **Potenciometro**: 
+* **Potenciômetro**: O Potenciômetro é um resistor variável que controla o fluxo de corrente fornecida para o transistor, desse modo controla proporcionalmente a tensão da saída.
 
-* **Diodo Zener**: 
+* **Diodo Zener**: O diodo zener limita o valor máximo de tensão para a saída do circuito. No caso, a tensão máxima escolhida é de 12V.
 
-* **LED**:
+* **LED**: O diodo emissor de luz (LED) informa que está tendo fluxo de corrente e assim o a fonte está ligada.
 
-* **Transistor**: 
+* **Transistor**: O transistor nesse circuito funciona como uma chave controladora de corrente. O controle é feito pelo potenciômetro ligado a base.
 
-* **Fusível**: 
+* **Fusível**: O fusível é usado para proteger o circuito de picos de corrente, caso ultrapasse a corrente predeterminada, um filamento interno se rompe.
 
 ## Imagem do circuito
 <img src="./Images/circuito2.png">
