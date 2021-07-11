@@ -46,19 +46,19 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 * **Fusível**: 
 
 ## Imagem do circuito
-<img src="./images/circuito2.png">
+<img src="./Images/circuito2.png">
 
 ## Link do circuito no Falstad:
 <a href="https://tinyurl.com/yfo9azrl" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
 
 ## Imagem esquemático da PCB
-<img src="./images/diagrama-fonte-ajustavel-12v.jpeg">
+<img src="./Images/diagrama-fonte-ajustavel-12v.jpeg">
 
 ## Imagem PCB no programa Proteus
-<img src="./images/circuito-proteus.jpeg">
+<img src="./Images/circuito-proteus.jpeg">
 
 ## Modelagem 3D da Fonte Ajustável 12V
-![modelagem-3d-fonte-ajustavel](./videos/modelagem-3D-fonte-ajustavel-12v.gif)
+![modelagem-3d-fonte-ajustavel](./Videos/modelagem-3D-fonte-ajustavel-12v.gif)
 
 ## Vídeo no Youtube
 
