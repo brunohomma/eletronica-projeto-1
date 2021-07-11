@@ -29,7 +29,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 
 * **Transformador**: Esse componente tem a funcionalidade de converter os 127V para 12V por meio da relção e proporção de espiras em cada um dos dois lados.
  
-* **Ponte de diodo**: 
+* **Ponte de diodo**: Esse arranjo de diodos tem a funcionalidade de remover a parte negativa da senoide fornecida na entrada do circuito, assim o sentido da corrente fica apenas em uma direção.
 
 * **Resistores**: 
 
