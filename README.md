@@ -27,7 +27,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 
 ## Os componentes
 
-* **Transformador**: 
+* **Transformador**: Esse componente tem a funcionalidade de converter os 127V para 12V por meio da relção e proporção de espiras em cada um dos dois lados.
  
 * **Ponte de diodo**: 
 
