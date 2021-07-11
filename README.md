@@ -60,7 +60,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 <img src="./Images/circuito-proteus.jpeg">
 
 ## Modelagem 3D da Fonte Ajustável 12V
-![modelagem-3d-fonte-ajustavel-imagem](./Imagem/modelagem-3D-fonte-ajustavel-12v.jpeg)
+![modelagem-3d-fonte-ajustavel-imagem](./Images/modelagem-3d-fonte-ajustavel-12v.jpeg)
 
 ![modelagem-3d-fonte-ajustavel](./Videos/modelagem-3D-fonte-ajustavel-12v.gif)
 
