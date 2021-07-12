@@ -65,5 +65,8 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 ![modelagem-3d-fonte-ajustavel](./Videos/modelagem-3D-fonte-ajustavel-12v.gif)
 
 ## Vídeo no Youtube
+Vídeo estará disponível na medida do possível, por favor aguarde.
 
 ## Agradecimentos
+Queremos agradecer ao Ilustre professor Eduardo Simões, por nos proporcionar a elaboração de uma atividade que tem uma suma importância para entendermos o funcionamento de circuitos digitais utilizando conhecimentos de eletrônica.
+Gostaríamos de Parabenizar o membro do nosso grupo [Vitor Laperriere de Faria](https://github.com/vitorlape) por oferecer e compartilhar seus conhecimentos adquiridos em um curso técnico em eletrônica. Sem sua colaboração, atuando como membro desse grupo, teríamos mais dificuldades com o desenvolvimento do Trabalho.
