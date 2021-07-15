@@ -5,7 +5,7 @@ Projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100m
 ## Alunos:
 Bruno Mitsuo Homma [github: brunohomma](https://github.com/brunohomma)
 
-Rodrigo Valim Maciel [github: rodrigo-maciel-ifood](https://github.com/rodrigo-maciel-ifood)
+Rodrigo Valim Maciel [github: rvalimaciel](https://github.com/rvalimaciel)
 
 Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 
