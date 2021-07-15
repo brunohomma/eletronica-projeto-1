@@ -51,6 +51,17 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 ## Link do circuito no Falstad:
 <a href="https://tinyurl.com/ygwvpcdr" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
 
+## Fórmulas utilizadas
+Definimos alguns valores, como da capacitância, na tentativa e erro e definimos as contas da Tensão de Ondulação e da Capacitância em função da razão de transformação.
+
+### Cálculo da Tensão de Ondulação
+
+![calculo-tensao-ondulacao](./Images/calculo-tensao-ondulacao.png)
+
+### Cálculo da Capacitância
+
+![calculo-capacitancia](./Images/calculo-capacitancia.png)
+
 ## Imagem esquemático da PCB
 <img src="./Images/diagrama-fonte-ajustavel-12v.jpg">
 
