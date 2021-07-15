@@ -37,7 +37,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 
 * **Potenciômetro**: O Potenciômetro é um resistor variável que controla o fluxo de corrente fornecida para o transistor, desse modo controla proporcionalmente a tensão da saída.
 
-* **Diodo Zener**: O diodo zener limita o valor máximo de tensão para a saída do circuito. No caso, a tensão máxima escolhida é de 12V.
+* **Diodo Zener**: O diodo zener limita o valor máximo de tensão para a saída do circuito. No caso, a tensão máxima escolhida é de 13V, pois o diodo tem um consumo de tensão de 0.7V, e para conseguirmos atingir o limite superior de 12V de tensão na saída da fonte, é necessário essas escolha do valor.
 
 * **LED**: O diodo emissor de luz (LED) informa que está tendo fluxo de corrente e assim o a fonte está ligada.
 
@@ -49,18 +49,18 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 <img src="./Images/circuito2.png">
 
 ## Link do circuito no Falstad:
-<a href="https://tinyurl.com/yfo9azrl" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
+<a href="https://tinyurl.com/ygwvpcdr" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
 
 ## Imagem esquemático da PCB
-<img src="./Images/diagrama-fonte-ajustavel-12v.jpeg">
+<img src="./Images/diagrama-fonte-ajustavel-12v.jpg">
 
 ![diagrama-fonte-ajustavel-12v](./Videos/diagrama-fonte-ajustavel-12v.gif)
 
 ## Imagem PCB no programa Proteus
-<img src="./Images/circuito-proteus.jpeg">
+<img src="./Images/circuito-proteus.jpg">
 
 ## Modelagem 3D da Fonte Ajustável 12V
-![modelagem-3d-fonte-ajustavel-imagem](./Images/modelagem-3d-fonte-ajustavel-12v.jpeg)
+![modelagem-3d-fonte-ajustavel-imagem](./Images/modelagem-3d-fonte-ajustavel-12v.jpg)
 
 ![modelagem-3d-fonte-ajustavel](./Videos/modelagem-3D-fonte-ajustavel-12v.gif)
 
