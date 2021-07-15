@@ -52,7 +52,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 <a href="https://tinyurl.com/ygwvpcdr" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
 
 ## Fórmulas utilizadas
-Definimos alguns valores, como da capacitância, na tentativa e erro e definimos as contas da Tensão de Ondulação e da Capacitância em função da razão de transformação. Assim, com um volar adiquirido na tentativa e erro para o cálculo da capacitância, descobrimos a relação de transformação necessária, com um acréscimo bem pequeno na razão, para chegar ao gráfico contínuo de corrente e tensão, e verificamos com o Valor de tensão média e a tensão de pico da saída do transformador e os resultados foram conpatíveis com o que setamos inicialmente na tentativa e erro.
+Definimos alguns valores, como da capacitância, na tentativa e erro e definimos as contas da Tensão de Ondulação e da Capacitância em função da razão de transformação. Assim, com um volar adquirido na tentativa e erro para o cálculo da capacitância, descobrimos a relação de transformação necessária, com um acréscimo bem pequeno na razão, para chegar ao gráfico contínuo de corrente e tensão, e verificamos com o Valor de tensão média e a tensão de pico da saída do transformador e os resultados foram conpatíveis com o que setamos inicialmente na tentativa e erro.
 
 ### Cálculo da Tensão de Ondulação
 
