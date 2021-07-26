@@ -56,7 +56,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 ## Fórmulas utilizadas
 
 ## Cálculo da relação de transformação
-$r_{t} = \\frac{V_{s}}{V_{p}}$ (razão da transformação)
+<img src="https://render.githubusercontent.com/render/math?math=r_{t} = \\frac{V_{s}}{V_{p}}"> (razão da transformação)
 
 $P_{p} = P_{s} \\rightarrow V_{p} \\cdot I_{p} = V_{s} \\cdot I_{s}$ \\
 
@@ -86,9 +86,3 @@ $V_{depois} = V_{antes} - 2V_{d}$
 ## Vídeo de Explicação da Fonte
 Vídeo disponível no [Drive do Bruno Homma]().
 
-<<<<<<< HEAD
-## Agradecimentos
-Queremos agradecer ao Ilustre professor Eduardo Simões, por nos proporcionar a elaboração de uma atividade que tem uma suma importância para entendermos o funcionamento de circuitos digitais utilizando conhecimentos de eletrônica.
-Gostaríamos de Parabenizar o membro do nosso grupo [Vitor Laperriere de Faria](https://github.com/vitorlape) por oferecer e compartilhar seus conhecimentos adquiridos em um curso técnico em eletrônica. Sem sua colaboração, atuando como membro desse grupo, teríamos mais dificuldades com o desenvolvimento do Trabalho.
-=======
->>>>>>> master
