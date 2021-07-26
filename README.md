@@ -63,7 +63,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 
 ### Cálculo da Tensão
 
-$V_{depois} = V_{antes} - 2V_{d}$
+<img src="https://render.githubusercontent.com/render/math?math=V_{depois} = V_{antes} - 2V_{d}">
 
 ### Cálculo da Capacitância
 
