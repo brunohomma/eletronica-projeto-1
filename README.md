@@ -102,8 +102,8 @@ Vamos agora calcular cada corrente, individualmente:
 
 <img src="https://render.githubusercontent.com/render/math?math=i_{carga} = \frac{V_{zener} - V_{be}}{120}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{pot} = \frac{V_{zener}}{7200}">
-<img src="https://render.githubusercontent.com/render/math?math=i_{zener} = \frac{V_{médio} - V_{zener}}{1000}">
-<img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{V_{médio}-1.8}{1000}">
+<img src="https://render.githubusercontent.com/render/math?math=i_{zener} = \frac{V_{medio} - V_{zener}}{1000}">
+<img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{V_{medio}-1.8}{1000}">
 
 
 ## Imagem esquemático da PCB
