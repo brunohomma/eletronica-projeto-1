@@ -68,6 +68,7 @@ Como a potência na entrada do Transformador é o mesmo do que na saída, logo p
 
 Queremos fazer a conversão de 127V para 12V, todavia iremos converter de 180V para 24V (considerando ambos como tensões de pico da entrada <img src="https://render.githubusercontent.com/render/math?math=V_{p} = 180V"> e da saída do transformador <img src="https://render.githubusercontent.com/render/math?math=V_{s} = 24V">)
 
+<img src="https://render.githubusercontent.com/render/math?math=\frac{24}{180} = 0.133...">
 
 ### Cálculo da Tensão
 
