@@ -16,34 +16,34 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 ## Escolha dos componentes:
 | Quantidade | Componentes                 | Valor R$ |
 |------------|-----------------------------|----------|
-| 1          | Transformador 12v 250mA     | [R$21,99](https://tinyurl.com/a4674dyj) |
-| 5          | Diodo 1N4148                | [R$0,10 x 5 = R$0,50](https://tinyurl.com/vd29hv2v) |
-| 4          | Resistores (10k, 1k, 1k, 2k)| [R$0,14 x 4 = R$0,56](https://tinyurl.com/4wckxvxy) |
+| 1          | Transformador 24v 200mA     | [R$27,99](https://tinyurl.com/transformador24v) |
+| 4          | Diodo 1N4148                | [R$0,10 x 4 = R$0,40](https://tinyurl.com/vd29hv2v) |
+| 3          | Resistores (1k, 1k, 2.2k)| [R$0,14 x 3 = R$0,42](https://tinyurl.com/resistor1k) |
 | 1          | Capacitor Eletrolítico 470uF| [R$0,25](https://tinyurl.com/xkf6jmpc) |
 | 1          | Potenciômetro 5k            | [R$2,70](https://tinyurl.com/25ct25jr) |
-| 1          | Diodo Zenner                | [R$0,21](https://tinyurl.com/d9emevrh) |
-| 1          | LED                         | [R$0,24](https://tinyurl.com/yya8psu8) |
-| 1          | Transistor bc548            | [R$0,18](https://tinyurl.com/597hm6df) |
+| 1          | Diodo Zenner                | [R$0,19](https://tinyurl.com/diodozener13v) |
+| 1          | LED                         | [R$0,23](https://tinyurl.com/ledazul5mm) |
+| 1          | Transistor bc337            | [R$0,20](https://tinyurl.com/transistorbc337) |
 | 1          | Fusível 0.2A                | [R$0,60](https://tinyurl.com/65jvr5db) |
-| **Total**  |                             |  R$27,23    |
+| **Total**  |                             |  R$32,98    |
 
 ## Os componentes
 
-* **Transformador**: Esse componente tem a funcionalidade de converter os 127V para 12V por meio da relção e proporção de espiras em cada um dos dois lados.
- 
+* **Transformador**: Esse componente tem a funcionalidade de converter os 180V de pico para 24V de pico por meio da relação e proporção de espiras em cada um dos dois lados.
+
 * **Ponte de diodo**: Esse arranjo de diodos tem a funcionalidade de remover a parte negativa da senoide fornecida na entrada do circuito, assim o sentido da corrente fica apenas em uma direção.
 
-* **Resistores**: Os resistores tem a função de limitar a corrente no circuito.
+* **Resistores**: Os resistores têm a função de limitar a corrente no circuito.
 
 * **Capacitor**: O capacitor tem a função de suprir a corrente no circuito quando a mesma estiver descendente. Assim a corrente fica mais contínua e estável.
 
-* **Potenciômetro**: O Potenciômetro é um resistor variável que controla o fluxo de corrente fornecida para o transistor, desse modo controla proporcionalmente a tensão da saída.
+* **Potenciômetro**: O Potenciômetro é um resistor variável que controla a tensão na base do transistor.
 
-* **Diodo Zener**: O diodo zener limita o valor máximo de tensão para a saída do circuito. No caso, a tensão máxima escolhida é de 13V, pois o diodo tem um consumo de tensão de 0.7V, e para conseguirmos atingir o limite superior de 12V de tensão na saída da fonte, é necessário essas escolha do valor.
+* **Diodo Zener**: O diodo zener limita o valor máximo de tensão para a base do transistor. No caso, a tensão máxima escolhida é de 13V, pois o transistor tem um consumo de tensão de 0.7V, e para conseguirmos atingir o limite superior de 12V de tensão na saída da fonte, é necessário escolher um valor superior a 12 + 0,7.
 
 * **LED**: O diodo emissor de luz (LED) informa que está tendo fluxo de corrente e assim o a fonte está ligada.
 
-* **Transistor**: O transistor nesse circuito funciona como uma chave controladora de corrente. O controle é feito pelo potenciômetro ligado a base.
+* **Transistor**: O transistor nesse circuito funciona como um regulador de tensão. Para que o transistor esteja ligado, é necessário que tenha uma diferença de potencial de 0,7V  entre a base e o emissor. Dessa maneira a tensão na base serve de referência para controlar a tensão máxima no emissor, que é a saída do circuito
 
 * **Fusível**: O fusível é usado para proteger o circuito de picos de corrente, caso ultrapasse a corrente predeterminada, um filamento interno se rompe.
 
@@ -51,35 +51,44 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 <img src="./Images/circuito2.png">
 
 ## Link do circuito no Falstad:
-<a href="https://tinyurl.com/ygwvpcdr" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
+<a href="https://tinyurl.com/projetoeletronicafalstad" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
 
 ## Fórmulas utilizadas
-Definimos alguns valores, como da capacitância, na tentativa e erro e definimos as contas da Tensão de Ondulação e da Capacitância em função da razão de transformação. Assim, com um volar adquirido na tentativa e erro para o cálculo da capacitância, descobrimos a relação de transformação necessária, com um acréscimo bem pequeno na razão, para chegar ao gráfico contínuo de corrente e tensão, e verificamos com o Valor de tensão média e a tensão de pico da saída do transformador e os resultados foram conpatíveis com o que setamos inicialmente na tentativa e erro.
 
-### Cálculo da Tensão de Ondulação
+## Cálculo da relação de transformação
+$r_{t} = \\frac{V_{s}}{V_{p}}$ (razão da transformação)
 
-![calculo-tensao-ondulacao](./Images/calculo-tensao-ondulacao.png)
+$P_{p} = P_{s} \\rightarrow V_{p} \\cdot I_{p} = V_{s} \\cdot I_{s}$ \\
+
+$$\\frac{V_{s}}{V_{p}} = \\frac{I_{p}}{I_{s}} = r_{t}$$
+
+### Cálculo da Tensão
+
+$V_{depois} = V_{antes} - 2V_{d}$
 
 ### Cálculo da Capacitância
 
-![calculo-capacitancia](./Images/calculo-capacitancia.png)
+![calculo-capacitancia]()
 
 ## Imagem esquemático da PCB
 <img src="./Images/diagrama-fonte-ajustavel-12v.jpg">
 
-![diagrama-fonte-ajustavel-12v](./Videos/diagrama-fonte-ajustavel-12v.gif)
+![diagrama-fonte-ajustavel-12v]()
 
 ## Imagem PCB no programa Proteus
 <img src="./Images/circuito-proteus.jpg">
 
 ## Modelagem 3D da Fonte Ajustável 12V
-![modelagem-3d-fonte-ajustavel-imagem](./Images/modelagem-3d-fonte-ajustavel-12v.jpg)
+![modelagem-3d-fonte-ajustavel-imagem]()
 
-![modelagem-3d-fonte-ajustavel](./Videos/modelagem-3D-fonte-ajustavel-12v.gif)
+![modelagem-3d-fonte-ajustavel](./Videos/placa3d.gif)
 
 ## Vídeo de Explicação da Fonte
-Vídeo disponível no [Drive do Bruno Homma](https://drive.google.com/file/d/1kfTTBMaAYUW9w2UQ1F7QJMbiZ3snIgpZ/view?usp=sharing).
+Vídeo disponível no [Drive do Bruno Homma]().
 
+<<<<<<< HEAD
 ## Agradecimentos
 Queremos agradecer ao Ilustre professor Eduardo Simões, por nos proporcionar a elaboração de uma atividade que tem uma suma importância para entendermos o funcionamento de circuitos digitais utilizando conhecimentos de eletrônica.
 Gostaríamos de Parabenizar o membro do nosso grupo [Vitor Laperriere de Faria](https://github.com/vitorlape) por oferecer e compartilhar seus conhecimentos adquiridos em um curso técnico em eletrônica. Sem sua colaboração, atuando como membro desse grupo, teríamos mais dificuldades com o desenvolvimento do Trabalho.
+=======
+>>>>>>> master
