@@ -80,11 +80,12 @@ A tensão será, portanto:
 
 <img src="https://render.githubusercontent.com/render/math?math=24 - 2 * 0.7 = 22.6V">
 
+### Cálculo do Capacitor
 
+Vamos utilizar o ripple de 10%, desta maneira podemos utilizar a fórmula simplificada de Calcular o Ripple de até 20%. Segue a fórmula:
 
-### Cálculo da Capacitância
+<img src="https://render.githubusercontent.com/render/math?math=V_{ripple} = \frac{V_{s}}{2f \cdot C \cdot R_{eq}}">
 
-![calculo-capacitancia]()
 
 ## Imagem esquemático da PCB
 <img src="./Images/diagrama-fonte-ajustavel-12v.jpg">
