@@ -94,6 +94,10 @@ Então, o Ripple pode ser escrito como:
 
 <img src="https://render.githubusercontent.com/render/math?math=V_{ripple} = \frac{i}{2f \cdot C}">
 
+E a corrente pode ser calculada por:
+
+<img src="https://render.githubusercontent.com/render/math?math=i = i_{carga} %2b i_{pot} %2b i_{zener} %2b i_{LED}">
+
 
 ## Imagem esquemático da PCB
 <img src="./Images/diagrama-fonte-ajustavel-12v.jpg">
