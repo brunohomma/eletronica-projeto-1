@@ -94,16 +94,24 @@ Então, o Ripple pode ser escrito como:
 
 <img src="https://render.githubusercontent.com/render/math?math=V_{ripple} = \frac{i}{2f \cdot C}">
 
-E a corrente pode ser calculada por:
+E a corrente total pode ser calculada por:
 
 <img src="https://render.githubusercontent.com/render/math?math=i = i_{carga} %2b i_{pot} %2b i_{zener} %2b i_{LED}">
 
-Vamos agora calcular cada corrente, individualmente:
+Para calcular cada corrente individualmente:
 
 <img src="https://render.githubusercontent.com/render/math?math=i_{carga} = \frac{V_{zener} - V_{be}}{120}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{pot} = \frac{V_{zener}}{7200}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{zener} = \frac{V_{medio} - V_{zener}}{1000}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{V_{medio}-1.8}{1000}">
+
+Podemos encontrar o ripple de 10% fazendo o seguinte cálculo:
+
+<img src="https://render.githubusercontent.com/render/math?math=V_{ripple} = 0.1 \cdot V_{s}">
+
+Logo, a Capacitância pode ser calculada por:
+
+<img src="https://render.githubusercontent.com/render/math?math=C = frac{i}{2f \cdot V_{ripple}}">
 
 
 ## Imagem esquemático da PCB
