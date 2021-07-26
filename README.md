@@ -98,6 +98,13 @@ E a corrente pode ser calculada por:
 
 <img src="https://render.githubusercontent.com/render/math?math=i = i_{carga} %2b i_{pot} %2b i_{zener} %2b i_{LED}">
 
+Vamos agora calcular cada corrente, individualmente:
+
+<img src="https://render.githubusercontent.com/render/math?math=i_{carga} = \frac{V_{zener} - V_{be}}{120}">
+<img src="https://render.githubusercontent.com/render/math?math=i_{pot} = \frac{V_{zener}}{7200}">
+<img src="https://render.githubusercontent.com/render/math?math=i_{zener} = \frac{V_{médio} - V_{zener}}{1000}">
+<img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{V_{médio}-1.8}{1000}">
+
 
 ## Imagem esquemático da PCB
 <img src="./Images/diagrama-fonte-ajustavel-12v.jpg">
