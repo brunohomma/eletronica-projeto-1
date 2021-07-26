@@ -90,6 +90,10 @@ Sabemos que a corrente do circuito pode ser definida por:
 
 <img src="https://render.githubusercontent.com/render/math?math=i = \frac{V_{s}}{R_{eq}}">
 
+Então, o Ripple pode ser escrito como:
+
+<img src="https://render.githubusercontent.com/render/math?math=V_{ripple} = \frac{i}{2f \cdot C}">
+
 
 ## Imagem esquemático da PCB
 <img src="./Images/diagrama-fonte-ajustavel-12v.jpg">
