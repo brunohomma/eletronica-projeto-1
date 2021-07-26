@@ -55,7 +55,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 
 ## Fórmulas utilizadas
 
-## Cálculo da relação de transformação
+### Cálculo da relação de transformação
 <img src="https://render.githubusercontent.com/render/math?math=r_{t} = \frac{V_{s}}{V_{p}}"> (razão da transformação)
 
 Como a potência na entrada do Transformador é o mesmo do que na saída, logo podemos afirmar que:
@@ -70,9 +70,17 @@ Queremos fazer a conversão de 127V para 12V, todavia iremos converter de 180V p
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{24}{180} = 0.133...">
 
-### Cálculo da Tensão
+### Cálculo da Tensão (Antes/Depois) da Ponte de Diodo
+
+Utilizando um diodo feito de sílicio (a mais utilizado comercialmente), a tensão seria consumida em 0.7V. A corrente transita por dois diodos, então a fórmula para calcular a tensão depois da ponte será:
 
 <img src="https://render.githubusercontent.com/render/math?math=V_{depois} = V_{antes} - 2V_{d}">
+
+A tensão será, portanto:
+
+<img src="https://render.githubusercontent.com/render/math?math=24 - 2 * 0.7 = 22.6V">
+
+
 
 ### Cálculo da Capacitância
 
