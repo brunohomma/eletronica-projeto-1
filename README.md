@@ -57,6 +57,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 
 ## Cálculo da relação de transformação
 <img src="https://render.githubusercontent.com/render/math?math=r_{t} = \frac{V_{s}}{V_{p}}"> (razão da transformação)
+
 <img src="https://render.githubusercontent.com/render/math?math=P_{p} = P_{s} \rightarrow V_{p} \cdot I_{p} = V_{s} \cdot I_{s}">
 <img src="https://render.githubusercontent.com/render/math?math=r_{t} = \frac{V_{s}}{V_{p}}"> (razão da transformação)
 
