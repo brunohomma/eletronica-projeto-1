@@ -111,7 +111,7 @@ Podemos encontrar o ripple de 10% fazendo o seguinte cálculo:
 
 Logo, a Capacitância pode ser calculada por:
 
-<img src="https://render.githubusercontent.com/render/math?math=C = frac{i}{2f \cdot V_{ripple}}">
+<img src="https://render.githubusercontent.com/render/math?math=C = \frac{i}{2f \cdot V_{ripple}}">
 
 
 ## Imagem esquemático da PCB
