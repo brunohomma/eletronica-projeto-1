@@ -135,3 +135,5 @@ Fazendo os cálculos:
 ## Vídeo de Explicação da Fonte
 Vídeo disponível no [Drive do Bruno Homma](https://drive.google.com/file/d/1-hmtiPtXZwGMKh2OotJ-8kTug2v8OL9r/view?usp=sharing).
 
+Obs: Para gerar latex para a descrição -> \<img src="https://render.githubusercontent.com/render/math?math=suafórmulalatex">
+sem a "\\"
