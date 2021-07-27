@@ -135,5 +135,5 @@ Fazendo os cálculos:
 ## Vídeo de Explicação da Fonte
 Vídeo disponível no [Drive do Bruno Homma](https://drive.google.com/file/d/1iSKvlNc3kRqNIaZ89V3cP-5LogWmTGEY/view?usp=sharing).
 
-Obs: Para gerar latex para a descrição -> <i m g src="https://render.githubusercontent.com/render/math?math=suafórmulalatex">
+Obs: Para gerar latex para a descrição -> \<img src="https://render.githubusercontent.com/render/math?math=suafórmulalatex">
 sem espaços na tag img
