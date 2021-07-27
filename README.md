@@ -49,7 +49,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 <img src="./Imagens/circuito falstad.png">
 
 ## Link do circuito no Falstad:
-<a href="https://tinyurl.com/projetoeletronicafalstad" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
+<a href="https://tinyurl.com/ygy8f4wm" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
 
 ## Fórmulas utilizadas
 
