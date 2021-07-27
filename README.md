@@ -46,7 +46,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 * **Fusível**: O fusível é usado para proteger o circuito de picos de corrente, caso ultrapasse a corrente predeterminada, um filamento interno se rompe.
 
 ## Imagem do circuito
-<img src="./Imagens/circuito falstad.png">
+<img src="./Imagens/circuito_falstad.png">
 
 ## Link do circuito no Falstad:
 <a href="https://tinyurl.com/ygy8f4wm" target="_blank">Clique aqui</a> para acessar o nosso circuito construido no Falstad.
@@ -121,14 +121,14 @@ Fazendo os cálculos:
 <img src="https://render.githubusercontent.com/render/math?math=C = \frac{0.1307}{2 \cdot 60 \cdot 2.26} \cdot 10^{6} \approx 481.93">
 
 ## Imagem esquemático da PCB
-<img src="./Imagens/esquematico pcb.jpg">
+<img src="./Imagens/esquematico_pcb.jpg">
 
 ## Imagem PCB no programa Proteus
-<img src="./Imagens/esquematico proteus.jpg">
+<img src="./Imagens/esquematico_proteus.jpg">
 
 ## Modelagem 3D da Fonte Ajustável 12V
 
-<img src="./Imagens/placa proteus.jpg">
+<img src="./Imagens/placa_proteus.jpg">
 
 ![modelagem-3d-fonte-ajustavel](./Videos/placa3d.gif)
 
