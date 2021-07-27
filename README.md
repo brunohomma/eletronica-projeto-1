@@ -94,9 +94,12 @@ E a corrente total pode ser calculada por:
 Para calcular cada corrente individualmente:
 
 <img src="https://render.githubusercontent.com/render/math?math=i_{carga} = \frac{V_{zener} - V_{be}}{120}">
-<img src="https://render.githubusercontent.com/render/math?math=i_{pot} = \frac{V_{zener}}{7200}">
-<img src="https://render.githubusercontent.com/render/math?math=i_{zener} = \frac{V_{medio} - V_{zener}}{1000}">
+<img src="https://render.githubusercontent.com/render/math?math=i_{RZener} = \frac{V_{medio} - V_{zener}}{1000}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{V_{medio}-1.8}{1000}">
+
+A corrente do resistor do zener é equivalente a soma das correntes do potenciômetro, da base do transistor e do zener em sí:
+
+<img src="https://render.githubusercontent.com/render/math?math=i_{RZener} = i_{pot} %2b i_{B} %2b i_{zener}">
 
 Podemos encontrar o ripple de 10% fazendo o seguinte cálculo:
 
@@ -111,11 +114,10 @@ Fazendo os cálculos:
 <img src="https://render.githubusercontent.com/render/math?math=V_{ripple} = 0.1 \cdot 22.6 = 2.26">
 <img src="https://render.githubusercontent.com/render/math?math=V_{media} = V_{s} - \frac{2.26}{2}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{carga} = \frac{13 - 0.7}{120} = 0.1025">
-<img src="https://render.githubusercontent.com/render/math?math=i_{pot} = \frac{13}{7200} \approx 0.0018">
-<img src="https://render.githubusercontent.com/render/math?math=i_{zener} = \frac{21.47 - 13}{1000} \approx 0.0085">
+<img src="https://render.githubusercontent.com/render/math?math=i_{Rzener} = \frac{21.47 - 13}{1000} \approx 0.0085">
 <img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{21.47 - 1.8}{1000} \approx 0.0197">
-<img src="https://render.githubusercontent.com/render/math?math=i = 0.1025 %2b 0.0018 %2b 0.0085 %2b 0.0197 \approx 0.1325">
-<img src="https://render.githubusercontent.com/render/math?math=C = \frac{0.1325}{2 \cdot 60 \cdot 2.26} \cdot 10^{6} \approx 488.57">
+<img src="https://render.githubusercontent.com/render/math?math=i = 0.1025 %2b 0.0085 %2b 0.0197 \approx 0.1307">
+<img src="https://render.githubusercontent.com/render/math?math=C = \frac{0.1307}{2 \cdot 60 \cdot 2.26} \cdot 10^{6} \approx 481.93">
 
 ## Imagem esquemático da PCB
 <img src="./Imagens/esquematico pcb.jpg">
