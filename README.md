@@ -125,15 +125,14 @@ Fazendo os cálculos:
 <img src="https://render.githubusercontent.com/render/math?math=C = \frac{0.1325}{2 \cdot 60 \cdot 2.26} \cdot 10^{6} \approx 488.57">
 
 ## Imagem esquemático da PCB
-<img src="./Images/esquematico pcb.jpg">
-
-![diagrama-fonte-ajustavel-12v]()
+<img src="./Imagens/esquematico pcb.jpg">
 
 ## Imagem PCB no programa Proteus
-<img src="./Images/circuito-proteus.jpg">
+<img src="./Imagens/esquematico proteus.jpg">
 
 ## Modelagem 3D da Fonte Ajustável 12V
-![modelagem-3d-fonte-ajustavel-imagem]()
+
+<img src="./Imagens/placa proteus.jpg">
 
 ![modelagem-3d-fonte-ajustavel](./Videos/placa3d.gif)
 
