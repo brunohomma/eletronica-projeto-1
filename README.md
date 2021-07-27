@@ -64,10 +64,10 @@ Assim obtemos:
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{V_{s}}{V_{p}} = \frac{I_{p}}{I_{s}} = r_{t}">
 
-Queremos fazer a conversão de 127V para 12V, todavia iremos converter de 180V para 24V, pois 180V é o valor da tensão de pico de uma fonte de CA de 127V.
+Precisamos converter de 180V para 24V, então a razão deve ser:
 
 <img src="https://render.githubusercontent.com/render/math?math=V_{p} = 180V">
-<img src="https://render.githubusercontent.com/render/math?math=V_{s} = 24V">)
+<img src="https://render.githubusercontent.com/render/math?math=V_{s} = 24V">
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{24}{180} = 0.133...">
 
