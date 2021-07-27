@@ -56,15 +56,18 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 ### Cálculo da relação de transformação
 <img src="https://render.githubusercontent.com/render/math?math=r_{t} = \frac{V_{s}}{V_{p}}"> (razão da transformação)
 
-Como a potência na entrada do Transformador é o mesmo do que na saída, logo podemos afirmar que:
+Como a potência na entrada do Transformador é a mesma do que na saída, logo podemos afirmar que:
 
 <img src="https://render.githubusercontent.com/render/math?math=P_{p} = P_{s} \rightarrow V_{p} \cdot I_{p} = V_{s} \cdot I_{s}">
 
- Assim obtemos:
+Assim obtemos:
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{V_{s}}{V_{p}} = \frac{I_{p}}{I_{s}} = r_{t}">
 
-Queremos fazer a conversão de 127V para 12V, todavia iremos converter de 180V para 24V (considerando ambos como tensões de pico da entrada <img src="https://render.githubusercontent.com/render/math?math=V_{p} = 180V"> e da saída do transformador <img src="https://render.githubusercontent.com/render/math?math=V_{s} = 24V">)
+Queremos fazer a conversão de 127V para 12V, todavia iremos converter de 180V para 24V, pois 180V é o valor da tensão de pico de uma fonte de CA de 127V.
+
+<img src="https://render.githubusercontent.com/render/math?math=V_{p} = 180V">
+<img src="https://render.githubusercontent.com/render/math?math=V_{s} = 24V">)
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{24}{180} = 0.133...">
 
