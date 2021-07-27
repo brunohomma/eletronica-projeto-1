@@ -22,7 +22,7 @@ Vitor Laperriere de Faria [github: vitorlape](https://github.com/vitorlape)
 | 1          | Diodo Zenner                | [R$0,19](https://tinyurl.com/diodozener13v) |
 | 1          | LED                         | [R$0,23](https://tinyurl.com/ledazul5mm) |
 | 1          | Transistor bc337            | [R$0,20](https://tinyurl.com/transistorbc337) |
-| 1          | Fusível 0.2A                | [R$0,60](https://tinyurl.com/65jvr5db) |
+| 1          | Fusível 0.5A                | [R$0,60](https://tinyurl.com/48bhue4t) |
 | **Total**  |                             |  R$32,98    |
 
 ## Os componentes
@@ -95,6 +95,7 @@ Para calcular cada corrente individualmente:
 
 <img src="https://render.githubusercontent.com/render/math?math=i_{carga} = \frac{V_{zener} - V_{be}}{120}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{RZener} = \frac{V_{medio} - V_{zener}}{1000}">
+<img src="https://render.githubusercontent.com/render/math?math=i_{pot} = \frac{V_{zener}}{7200}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{V_{medio}-1.8}{1000}">
 
 A corrente do resistor do zener é equivalente a soma das correntes do potenciômetro, da base do transistor e do zener em si:
@@ -132,5 +133,5 @@ Fazendo os cálculos:
 ![modelagem-3d-fonte-ajustavel](./Videos/placa3d.gif)
 
 ## Vídeo de Explicação da Fonte
-Vídeo disponível no [Drive do Bruno Homma](https://drive.google.com/file/d/1EmnFBPCx9rpqXM2GddKcgBpviJb3DgZ1/view?usp=sharing).
+Vídeo disponível no [Drive do Bruno Homma](https://drive.google.com/file/d/1iSKvlNc3kRqNIaZ89V3cP-5LogWmTGEY/view?usp=sharing).
 
