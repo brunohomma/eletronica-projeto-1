@@ -133,5 +133,5 @@ Fazendo os cálculos:
 ![modelagem-3d-fonte-ajustavel](./Videos/placa3d.gif)
 
 ## Vídeo de Explicação da Fonte
-Vídeo disponível no [Drive do Bruno Homma](https://drive.google.com/file/d/1iSKvlNc3kRqNIaZ89V3cP-5LogWmTGEY/view?usp=sharing).
+Vídeo disponível no [Drive do Bruno Homma](https://drive.google.com/file/d/1-hmtiPtXZwGMKh2OotJ-8kTug2v8OL9r/view?usp=sharing).
 
