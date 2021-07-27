@@ -1,6 +1,4 @@
-# Projeto 1 - Fonte de Tensão (SSC0118 - Eletrônica para Computação)
-Projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA
-=======
+# Projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA
 Projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA. A fonte possui uma Tensão RMS de 127V, com pico aproximado para 180V (arredondamos de um pico de 179.6V para um valor inteiro de 180V).
 
 
