@@ -97,7 +97,7 @@ Para calcular cada corrente individualmente:
 <img src="https://render.githubusercontent.com/render/math?math=i_{RZener} = \frac{V_{medio} - V_{zener}}{1000}">
 <img src="https://render.githubusercontent.com/render/math?math=i_{LED} = \frac{V_{medio}-1.8}{1000}">
 
-A corrente do resistor do zener é equivalente a soma das correntes do potenciômetro, da base do transistor e do zener em sí:
+A corrente do resistor do zener é equivalente a soma das correntes do potenciômetro, da base do transistor e do zener em si:
 
 <img src="https://render.githubusercontent.com/render/math?math=i_{RZener} = i_{pot} %2b i_{B} %2b i_{zener}">
 
