@@ -89,7 +89,7 @@ Então, o Ripple pode ser escrito como:
 
 E a corrente total pode ser calculada por:
 
-<img src="https://render.githubusercontent.com/render/math?math=i = i_{carga} %2b i_{pot} %2b i_{zener} %2b i_{LED}">
+<img src="https://render.githubusercontent.com/render/math?math=i = i_{carga} %2b i_{RZener} %2b i_{LED}">
 
 Para calcular cada corrente individualmente:
 
